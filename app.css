@@ -62,9 +62,9 @@ button {
     cursor: pointer;
 }
 
-footer {
+.footer {
     margin-top: 20px;
     text-align: center;
-    color: #333;
     font-size: 14px;
+    color: #555;
 }
