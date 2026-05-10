@@ -29,13 +29,23 @@
                 <input type="password" id="password2" placeholder="Confirm password">
                 <div class="error"></div>
             </div>
-            <button type="submit">Sign Up</button>
+            <button class="openModalBtn" type="submit" onclick="openPopup()">Sign Up</button>
         </form>
-         <footer class="footer">
-        <p>&copy; 2026 Fortune U. Emmanuel. All rights reserved.</p>
-    </footer>
+        <!-- MODAL POPUP -->
+         <div id="myModal" class="modal">
+            <div class="modal-content">
+                <img src="404-tick.png" alt="success-tick logo" height="50px" width="auto">
+                <h2>Thank You!</h2>
+                <p>Your details has been successfully submitted. Thanks!</p>
+                <button id="closeModalBtn" type="button" onclick="closePopup()">Close</button>
+            </div>
+        </div>
+      <footer class="footer">
+           <p>&copy; 2026 Fortune U. Emmanuel. All rights reserved.</p>
+       </footer>
     </div>
    
-    <script defer src="app.js"></script>
+    <script defer src="form-validation.js"></script>
+    <script defer src="modal-popup.js"></script>
 </body>
 </html>

@@ -74,3 +74,5 @@ const verifyInputs = () => {
         setSuccess(password2);
     }
 };
+
+
