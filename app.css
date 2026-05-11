@@ -65,10 +65,10 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #4CAF50;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
 }
 .modal {
     display: none;
