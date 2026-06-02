@@ -14,19 +14,32 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+form {
+    margin-top: 20px;
+}
 .input-control {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 .input-control label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 .input-control input {
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 12px;
+    border: 2px solid #3875d8;
     border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+    color: #333;
+    border-radius: 8px;
 }
 .input-control input:focus {
     outline: 0;
